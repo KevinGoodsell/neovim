@@ -1,7 +1,7 @@
 name: lintdoc-urls
 on:
-  schedule:
-    - cron: '22 22 * * 5'
+  # schedule:
+  #   - cron: '22 22 * * 5'
   workflow_dispatch:
 
 jobs:

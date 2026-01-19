@@ -1,7 +1,7 @@
 name: "reviewers: add"
 on:
-  pull_request_target:
-    types: [labeled, ready_for_review, reopened]
+  # pull_request_target:
+  #   types: [labeled, ready_for_review, reopened]
   workflow_call:
 jobs:
   request-reviewer:
